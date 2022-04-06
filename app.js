@@ -1,24 +1,19 @@
 // bài A1
-let inputArray = ['binh','hung','phuoc','cao','khanh'];
+let users = ['binh','hung','phuoc','cao','khanh'] 
+function maxString(arrStrings){
+    let max = arrStrings[0].length
+    let LongestLength = []
+    for ( let i = 0 ; i < arrStrings.length; i++){
+        let longestStr = arrStrings[i].length
+        if(longestStr > max){
+          LongestLength.push(arrStrings[i])
+        }
+    }
+    return LongestLength
+}
 
-function allLongestStrings(inputArray) {
-    let max_string = [];
-    let Max = 0;
-    let result = [];
-    for (let i of inputArray) {
-        if (i.length > Max) {
-            max_string.push(i)
-        }
-    }
-    for (let z of max_string) {
-        if (z.length == Max ) {
-            result.push(z)
-        }
-    }
-    console.log(result);
-    return result
-};
-allLongestStrings(inputArray)
+let arrLongestLength = maxString(users)
+console.log('arrLongestLength',arrLongestLength)
 
 // bài A2
 // let users = [
