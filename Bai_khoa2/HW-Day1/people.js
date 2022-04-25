@@ -69,3 +69,7 @@ let result2 = people.map(function(people){
     return newarray
 })
 console.log(result2);
+
+let result3 = people.filter(function(people){
+    return people.id > 5 
+})
