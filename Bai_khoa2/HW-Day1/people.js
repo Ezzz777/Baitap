@@ -59,3 +59,13 @@ const people = [{
     "email": "adeval9@google.fr",
     "gender": "Male"
 }]
+
+let result = people.map(function(people){
+    return people.first_name
+})
+
+let result2 = people.map(function(people){
+    let newarray="Fullname: " +  people.first_name + " " + people.last_name + " " + "gender: " + people.gender
+    return newarray
+})
+console.log(result2);
