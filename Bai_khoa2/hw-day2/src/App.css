@@ -1,0 +1,17 @@
+.box1 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+}
+.img {
+    width: 200px;
+}
+.count {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2{
+    width: fit-content;
+    text-align: center;
+}
