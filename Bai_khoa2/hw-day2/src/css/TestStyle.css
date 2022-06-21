@@ -1,0 +1,23 @@
+.test-item {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.newcategories {
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    border: 1px solid mediumseagreen ;
+    width: fit-content;
+    padding: 10px;
+}
+
+.test-name{
+    margin-bottom: 10px;
+}
+
+.test-time-task{
+    margin-bottom: 10px;
+}

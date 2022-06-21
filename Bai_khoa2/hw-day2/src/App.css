@@ -13,5 +13,11 @@
 
 .box2{
     width: fit-content;
+}
+.tittle {
     text-align: center;
+}
+.count2 {
+    display: flex;
+    justify-content:space-around;
 }

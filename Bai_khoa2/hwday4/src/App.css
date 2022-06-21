@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.circle {
+  background-color: white;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
